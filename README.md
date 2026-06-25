@@ -1,8 +1,17 @@
-# MxChat Bulk PDF Upload Add-on
+# Chatbot Shaheen
 
-A lightweight, robust WordPress helper plugin designed to add bulk PDF upload functionality to the [MxChat](https://wordpress.org/plugins/mxchat-basic/) AI chatbot plugin's Knowledge Base section.
+This repository contains the WordPress plugins used for the Chatbot Shaheen project:
 
-## Features
+1. **[mxchat-basic](file:///c:/Users/Gen6-ST/Desktop/Chatbot%20Shaheen/mxchat-basic/)**: The core MxChat AI chatbot plugin (v3.2.10).
+2. **[mxchat-bulk-pdf-addon](file:///c:/Users/Gen6-ST/Desktop/Chatbot%20Shaheen/mxchat-bulk-pdf-addon/)**: A custom add-on plugin that adds bulk PDF upload and page-extraction capabilities to the Knowledge Base.
+
+---
+
+## MxChat Bulk PDF Upload Add-on
+
+A lightweight, robust WordPress helper plugin designed to add bulk PDF upload capabilities to the MxChat AI chatbot plugin's Knowledge Base section.
+
+### Features
 
 - **Bulk Upload Support:** Changes the single-file PDF upload selector into a multiple-file selector, allowing you to select and upload dozens of PDFs at once.
 - **Unified Processing Queue:** Combines all pages from all uploaded PDFs into a single, unified queue. This uses MxChat's native background processing framework to vectorize pages one-by-one.
@@ -10,14 +19,14 @@ A lightweight, robust WordPress helper plugin designed to add bulk PDF upload fu
 - **Clean File Deletion:** Hooks into the transient lifecycle of the active PDF queue, ensuring that all temporary PDF files are completely deleted from your server once processing completes or is stopped.
 - **No core file modification:** Keeps the core `mxchat-basic` plugin intact, allowing you to safely update it in the future without losing your bulk upload capabilities.
 
-## Installation
+### Installation
 
-1. Compress this folder (`Chatbot Shaheen`) into a `.zip` archive.
+1. Compress the [mxchat-bulk-pdf-addon](file:///c:/Users/Gen6-ST/Desktop/Chatbot%20Shaheen/mxchat-bulk-pdf-addon/) folder into a `.zip` archive.
 2. In your WordPress Dashboard, go to **Plugins > Add New > Upload Plugin**.
 3. Upload the `.zip` file and click **Install Now**.
 4. Activate the **MxChat Bulk PDF Upload Add-on** plugin.
 
-## How to Use
+### How to Use
 
 1. Navigate to **MxChat > Knowledge** in your WordPress dashboard.
 2. Choose the **PDF Upload** import method.
